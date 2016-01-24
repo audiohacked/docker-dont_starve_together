@@ -2,7 +2,6 @@
 FROM audiohacked/steamcmd:jessie
 MAINTAINER Sean Nelson <audiohacked@gmail.com>
 
-ARG SERVER_TOKEN
 ENV SERVER_TOKEN        ${SERVER_TOKEN:-""}
 ENV SERVER_NAME         "Dont Starve Together Server"
 ENV SERVER_DESCRIPTION  "A very nice server description"
